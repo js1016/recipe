@@ -2,6 +2,6 @@
 
     ![](https://joji.blob.core.windows.net/recipe/procmon-1.png)
 
-2. Click **File** -> **Save**, choose **All events** and then save the log in **PML** format.
+2. Click **File** -> **Save**, choose **All events** and then save the log in `pml` format.
 
     ![](https://joji.blob.core.windows.net/recipe/procmon-2.png)

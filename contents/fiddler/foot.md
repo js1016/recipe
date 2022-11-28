@@ -1,1 +1,1 @@
-1. Go to **Fiddler** -> **File** -> **Save** -> **All Sessions...** to save the file in SAZ format.
+1. Go to **Fiddler** -> **File** -> **Save** -> **All Sessions...** to save the file in `saz` format.
