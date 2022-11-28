@@ -1,0 +1,4 @@
+1. Press `Win key + R` or right click **Start Menu** and choose **Run** to launch a **Run** dialog.
+2. Run command: `msedge.exe --enable-logging --vmodule=*/edge_dual_engine/*=3 about:blank` to open Edge with blank page and then access the website in Edge browser. **Or** you can replace `about:blank` with the actual website URL that is supposed to run in IE mode, like: `msedge.exe --enable-logging --vmodule=*/edge_dual_engine/*=3 https://IamSupposedToRunInIEMode.com/` to directly open the target website.
+   
+   ![](https://joji.blob.core.windows.net/recipe/start-edge-with-dual-engine-log-start-1.png)

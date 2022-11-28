@@ -1,0 +1,19 @@
+{
+    "title": "Capture Fiddler trace for IE loading a website and IEDigest",
+    "description": "This action plan captures `Fiddler` trace of IE loading a website. It also captures `IEDigest` log as IE settings may impact the browser mode and document mode.",
+    "head": [
+        "fiddler",
+        "iedigest"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "close-all-ie",
+        "fiddler",
+        "start-ie-with-url",
+        "Now please demonstrate the behavior in IE."
+    ],
+    "foot": [
+        "fiddler",
+        "iedigest"
+    ]
+}

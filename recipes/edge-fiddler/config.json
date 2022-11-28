@@ -1,0 +1,17 @@
+{
+    "title": "Capture Fiddler trace for Edge loading a website",
+    "description": "This action plan captures Fiddler of Edge loading a website.",
+    "head": [
+        "fiddler"
+    ],
+    "main": [
+        "clear-edge-cache",
+        "close-all-edge",
+        "fiddler",
+        "start-edge-with-url",
+        "Now please demonstrate whatever website behavior in Edge."
+    ],
+    "foot": [
+        "fiddler"
+    ]
+}

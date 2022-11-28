@@ -1,0 +1,1 @@
+<https://edgedbg.com/recipe/>

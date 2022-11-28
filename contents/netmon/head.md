@@ -1,0 +1,1 @@
+1. Download and install **Network Monitor** from <https://www.microsoft.com/en-us/download/4865>.

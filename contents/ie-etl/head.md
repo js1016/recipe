@@ -1,0 +1,1 @@
+1. Download and save `start.bat` from <https://joji.blob.core.windows.net/recipe/start.bat>

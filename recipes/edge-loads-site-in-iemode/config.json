@@ -1,0 +1,28 @@
+{
+    "title": "Edge loads a site in IE mode",
+    "description": "description.md",
+    "head": [
+        "iedigest",
+        "procmon",
+        "fiddler",
+        "disable-edge-startup-boost"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "clear-edge-cache",
+        "close-all-edge",
+        "procmon",
+        "fiddler",
+        "start-edge-with-dual-engine-log",
+        "Demonstrate whatever issue about IE mode and then proceed to next step."
+    ],
+    "foot": [
+        "start-edge-with-dual-engine-log",
+        "procmon",
+        "fiddler",
+        "edge-policy",
+        "ie-mode-log",
+        "iedigest",
+        "disable-edge-startup-boost"
+    ]
+}

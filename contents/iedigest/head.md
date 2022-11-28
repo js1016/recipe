@@ -1,0 +1,1 @@
+1. Download **IEDigest** from <https://aka.ms/iedigest> and extract `iedigest.exe` from the zip file.

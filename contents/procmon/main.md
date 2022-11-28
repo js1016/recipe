@@ -1,0 +1,1 @@
+1. Launch **Procmon.exe** as administrator from where you unzipped the **Process Monitor**. It should automatically start capturing after startup. Proceed to next step when you see it is generating massive events.

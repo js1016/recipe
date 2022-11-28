@@ -1,0 +1,21 @@
+{
+    "title": "IE network log for loading a website",
+    "description": "This action plan captures low-level network logs to reveal how IE connects and loads a website. This can find out the root cause when IE has a connectivity issue when loading a website.",
+    "head": [
+        "ie-etl",
+        "netmon",
+        "iedigest"
+    ],
+    "main": [
+        "close-all-ie",
+        "netmon",
+        "ie-etl",
+        "start-ie-with-url",
+        "After issue being reproduced, proceed to next step."
+    ],
+    "foot": [
+        "ie-etl",
+        "netmon",
+        "iedigest"
+    ]
+}
