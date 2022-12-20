@@ -1,5 +1,5 @@
 {
-    "title": "Capture Fiddler trace for Edge loading a website",
+    "title": "Edge Fiddler",
     "description": "This action plan captures Fiddler of Edge loading a website.",
     "head": [
         "fiddler"
