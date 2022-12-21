@@ -1,0 +1,18 @@
+{
+    "title": "Edge pop-up window: Fiddler, process dump",
+    "description": "This action plan is for troubleshooting a website that is displaying an unexpected pop-up window in Edge.",
+    "head": [
+        "fiddler",
+        "process-dump-with-popup"
+    ],
+    "main": [
+        "clear-edge-cache",
+        "fiddler",
+        "start-edge-with-url",
+        "Do whatever steps to reproduce the pop-up window in Edge. Once the pop-up window appears, please **DO NOT** close it and proceed to next step.",
+        "process-dump-with-popup"
+    ],
+    "foot": [
+        "fiddler"
+    ]
+}

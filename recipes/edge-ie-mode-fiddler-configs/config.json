@@ -1,0 +1,22 @@
+{
+    "title": "Edge IE mode - Fiddler and IE mode configurations",
+    "description": "This action plan captures Fiddler and IE mode related configurations.",
+    "head": [
+        "iedigest",
+        "fiddler"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "clear-edge-cache",
+        "close-all-edge",
+        "fiddler",
+        "start-edge-with-url",
+        "Demonstrate whatever website issue in IE mode and then proceed to next step."
+    ],
+    "foot": [
+        "fiddler",
+        "edge-policy",
+        "ie-mode-log",
+        "iedigest"
+    ]
+}

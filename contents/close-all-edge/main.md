@@ -1,3 +1,3 @@
-1. Close all **Edge** instances, open **Task Manager** and check the process list in **Details** tab, sort processes by **Name**, ensure you don't see any `msedge.exe` process in the list. Kill the remaining `msedge.exe` if there is any.
+1. Close all instances of Edge. Open the **Task Manager** and check the process list in the **Details** tab. Sort the processes by **Name**. Ensure that you do not see any `msedge.exe` process in the list. If there is any remaining `msedge.exe` process, kill it.
 
-   ![](https://joji.blob.core.windows.net/recipe/close-all-edge-1.png)
+    ![](https://joji.blob.core.windows.net/recipe/close-all-edge-1.png)

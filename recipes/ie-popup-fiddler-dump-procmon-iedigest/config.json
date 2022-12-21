@@ -1,0 +1,23 @@
+{
+    "title": "IE pop-up window: Fiddler, process dump, Process Monitor and IEDigest",
+    "description": "This action plan is for troubleshooting a website that is displaying an unexpected pop-up window in Internet Explorer.",
+    "head": [
+        "fiddler",
+        "iedigest",
+        "process-dump-with-popup",
+        "procmon"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "fiddler",
+        "procmon",
+        "start-ie-with-url",
+        "Do whatever steps to reproduce the pop-up window in IE. Once the pop-up window appears, please **DO NOT** close it and proceed to next step.",
+        "process-dump-with-popup"
+    ],
+    "foot": [
+        "procmon",
+        "fiddler",
+        "iedigest"
+    ]
+}

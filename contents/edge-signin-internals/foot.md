@@ -1,1 +1,1 @@
-1. Navigate to `edge://signin-internals` page in Edge, press `Ctrl+S` or right click page -> click **Save as** to save the page in HTML format.
+1. Navigate to the `edge://signin-internals` page in Edge. Press `Ctrl+S` or right click the page and click **Save as** to save the page in HTML format.
