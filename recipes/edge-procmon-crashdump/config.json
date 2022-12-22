@@ -1,0 +1,21 @@
+{
+    "title": "Edge Process Monitor log and crash dump (if any)",
+    "description": "This action plan is used to troubleshoot any Edge startup failure or crash issue, regardless of the web application it loads. If the Edge crash issue only occurs when loading a specific website, you should refer to the [Edge crash dump, Fiddler, Process Monitor log](https://edgedbg.com/recipe/edge-crash-fiddler-dump-procmon) to capture logs.",
+    "head": [
+        "procmon",
+        "edge-crashpad-full-dump",
+        "disable-edge-startup-boost"
+    ],
+    "main": [
+        "close-all-edge",
+        "procmon",
+        "Start Edge and reproduce the issue. Proceed to the next step after issue being reproduced."
+    ],
+    "foot": [
+        "procmon",
+        "edge-crashpad-full-dump",
+        "edge-policy",
+        "edge-version",
+        "disable-edge-startup-boost"
+    ]
+}

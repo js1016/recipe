@@ -1,6 +1,6 @@
 {
     "title": "Edge IE mode - Fiddler and IE mode configurations",
-    "description": "This action plan captures Fiddler and IE mode related configurations.",
+    "description": "description.md",
     "head": [
         "iedigest",
         "fiddler"

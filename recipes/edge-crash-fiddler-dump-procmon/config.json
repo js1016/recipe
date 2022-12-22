@@ -1,0 +1,27 @@
+{
+    "title": "Edge crash dump, Fiddler, Process Monitor log",
+    "description": "This action plan is for troubleshooting the Edge crash issue caused by a web application.",
+    "head": [
+        "fiddler",
+        "procmon",
+        "edge-crashpad-full-dump",
+        "disable-edge-startup-boost"
+    ],
+    "main": [
+        "clear-edge-cache",
+        "close-all-edge",
+        "fiddler",
+        "procmon",
+        "start-edge-with-url",
+        "Take whatever steps to reproduce the crash issue."
+    ],
+    "foot": [
+        "After Edge crashes, please proceed to the next step.",
+        "procmon",
+        "fiddler",
+        "edge-crashpad-full-dump",
+        "edge-policy",
+        "edge-version",
+        "disable-edge-startup-boost"
+    ]
+}

@@ -1,1 +1,1 @@
-1. After IE crashes, you will find the crash dump in `c:\dumps`.
+1. If IE crashes, you will find the crash dumps in `c:\dumps`.

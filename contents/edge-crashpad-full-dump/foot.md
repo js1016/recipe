@@ -1,4 +1,4 @@
-1. Edge crash dumps should be created at `%LOCALAPPDATA%\Microsoft\Edge\User Data\Crashpad\reports`, you may zip the entire `reports` folder to reduce the dump file size.
+1. Check if any Edge crash dumps have been created at `%LOCALAPPDATA%\Microsoft\Edge\User Data\Crashpad\reports`, you may zip the entire `reports` folder to reduce the dump file size.
 
     **Note**: for other channels, the dump location will be `%LOCALAPPDATA%\Microsoft\Edge <channel>\User Data\Crashpad\reports`, where `<channel>` is `SxS` (Canary), `Dev` or `Beta`.
 

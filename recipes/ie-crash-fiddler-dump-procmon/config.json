@@ -1,0 +1,26 @@
+{
+    "title": "IE crash dump, Fiddler, Process Monitor log",
+    "description": "This action plan is for troubleshooting the IE crash issue caused by a web application.",
+    "head": [
+        "fiddler",
+        "procmon",
+        "ie-wer-crash-dump",
+        "iedigest"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "close-all-ie",
+        "fiddler",
+        "procmon",
+        "start-ie-with-url",
+        "Take whatever steps to reproduce the crash issue."
+    ],
+    "foot": [
+        "After IE crashes, please proceed to the next step.",
+        "procmon",
+        "fiddler",
+        "ie-wer-crash-dump",
+        "iedigest",
+        "gpresult"
+    ]
+}

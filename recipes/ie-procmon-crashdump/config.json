@@ -1,0 +1,20 @@
+{
+    "title": "IE Process Monitor log and crash dump (if any)",
+    "description": "This action plan is used to troubleshoot any IE startup failure or crash issue, regardless of the web application it loads. If the IE crash issue only occurs when loading a specific website, you should refer to the [IE crash dump, Fiddler, Process Monitor log](https://edgedbg.com/recipe/ie-crash-fiddler-dump-procmon) to capture logs.",
+    "head": [
+        "procmon",
+        "ie-wer-crash-dump",
+        "iedigest"
+    ],
+    "main": [
+        "close-all-ie",
+        "procmon",
+        "Start IE and reproduce the issue. Proceed to the next step after issue being reproduced."
+    ],
+    "foot": [
+        "procmon",
+        "ie-wer-crash-dump",
+        "iedigest",
+        "gpresult"
+    ]
+}
