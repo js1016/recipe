@@ -22,6 +22,6 @@
             ![](https://joji.blob.core.windows.net/recipe/clear-ie-cache-1.png)
 
         2. Go to the **Programs** tab and click on the **Manage add-ons** button.
-        3. In the **Manage Add-ons** dialog, click on the link **Learn more about toolbar's and extensions** in the lower left corner, this will launch an Internet Explorer window using the COM Object method.
+        3. In the **Manage Add-ons** dialog, click on the link **Learn more about toolbars and extensions** in the lower left corner, this will launch an Internet Explorer window using the COM Object method.
 
             ![](https://joji.blob.core.windows.net/recipe/launch-ie-using-com-object-method-3.png)
