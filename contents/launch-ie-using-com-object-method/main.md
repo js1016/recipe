@@ -17,9 +17,7 @@
 
     - Using the **Internet Properties** diaglog
 
-        1. Press the `Win key + R` or right click on the **Start Menu** and choose **Run** to launch a **Run** dialog. Then run `inetcpl.cpl` to open **Internet Properties**.
-
-            ![](https://joji.blob.core.windows.net/recipe/clear-ie-cache-1.png)
+        1. ref:open-inetcpl
 
         2. Go to the **Programs** tab and click on the **Manage add-ons** button.
         3. In the **Manage Add-ons** dialog, click on the link **Learn more about toolbars and extensions** in the lower left corner, this will launch an Internet Explorer window using the COM Object method.

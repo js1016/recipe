@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { BlobServiceClient, BlockBlobClient } from '@azure/storage-blob';
+import { BlobServiceClient } from '@azure/storage-blob';
 let ContentList: RecipeContent[] = [];
 let RecipeList: Recipe[] = [];
 
@@ -32,11 +32,13 @@ type Recipe = {
     foot: string[];
 }
 
-const checkSteps: (steps: string[], type: 'head' | 'foot' | 'main', recipeId: string) => boolean = (steps, type, recipeId) => {
+type Section = 'head' | 'foot' | 'main';
+
+const checkSteps = (steps: string[], section: Section, recipeId: string): boolean => {
     for (const step of steps) {
         const content = ContentList.find(i => i.id === step);
-        if (content && content[`${type}Md`] === null) {
-            console.log(`${step} does not have ${type}Md, but it is referenced by ${recipeId}`);
+        if (content && content[`${section}Md`] === null) {
+            console.log(`${step} does not have ${section}Md, but it is referenced by ${recipeId}`);
             return false;
         }
     }
@@ -110,7 +112,12 @@ console.log(`Found ${RecipeList.length} recipes`);
 fs.writeFileSync(path.resolve(__dirname, `ContentList.json`), JSON.stringify(ContentList, null, 4), { encoding: 'utf-8' });
 fs.writeFileSync(path.resolve(__dirname, `RecipeList.json`), JSON.stringify(RecipeList, null, 4), { encoding: 'utf-8' });
 
-uploadToStorage();
+if (process.argv.some(i => i === 'publish')) {
+    uploadToStorage();
+} else {
+    console.log('Done');
+}
+
 
 async function uploadToStorage() {
     const blobServiceClient = new BlobServiceClient(process.env.RecipeBlobSASUrl as string);
