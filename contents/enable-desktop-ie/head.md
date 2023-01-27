@@ -1,0 +1,1 @@
+1. Open Registry Editor (regedit.exe) as an administrator and navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main` and `HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main`. If you find a key named `NotifyDisableIEOption`, rename it to `NotifyDisableIEOption2`. This will enable Internet Explorer as a standalone browser.
