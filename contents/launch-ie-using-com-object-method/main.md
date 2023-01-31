@@ -1,6 +1,6 @@
 1. To launch IE using COM Object method, we can choose any of following approaches:
 
-    - Using **PowerShell**: Open a PowerShell prompt and run the command `New-Object -ComObject "InternetExplorer.Application";$ie.Visible=1`, this will open an Internet Explorer window with a blank page.
+    - Using **PowerShell**: Open a PowerShell prompt and run the command `$ie=New-Object -ComObject "InternetExplorer.Application";$ie.Visible=1`, this will open an Internet Explorer window with a blank page.
 
         ![](https://joji.blob.core.windows.net/recipe/launch-ie-using-com-object-method-1.png)
 
