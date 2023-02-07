@@ -1,0 +1,22 @@
+{
+    "title": "IE Fiddler, Process Monitor, IEDigest",
+    "description": "This action plan captures a Fiddler trace and a Process Monitor log of IE loading a website. It also captures an IEDigest log, as IE settings may impact the browser mode and document mode.",
+    "head": [
+        "fiddler",
+        "iedigest",
+        "procmon"
+    ],
+    "main": [
+        "clear-ie-cache",
+        "close-all-ie",
+        "procmon",
+        "fiddler",
+        "start-ie-with-url",
+        "Now please demonstrate whatever website behavior in IE."
+    ],
+    "foot": [
+        "procmon",
+        "fiddler",
+        "iedigest"
+    ]
+}
