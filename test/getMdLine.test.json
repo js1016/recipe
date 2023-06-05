@@ -1,0 +1,73 @@
+[
+    {
+        "line": "  1.   ddd\r",
+        "expect": {
+            "type": "ordered",
+            "indent": "  ",
+            "order": 1,
+            "text": "ddd"
+        }
+    },
+    {
+        "line": "```\r",
+        "expect": {
+            "type": "code"
+        }
+    },
+    {
+        "line": "  ```ddd",
+        "expect": {
+            "type": "code",
+            "indent": "  ",
+            "text": "ddd"
+        }
+    },
+    {
+        "line": "  ```ddd`",
+        "expect": {
+            "type": "text",
+            "indent": "  ",
+            "text": "```ddd`"
+        }
+    },
+    {
+        "line": "  *   t t\r",
+        "expect": {
+            "type": "*",
+            "indent": "  ",
+            "text": "t t"
+        }
+    },
+    {
+        "line": "  -   t\tt\r",
+        "expect": {
+            "type": "-",
+            "indent": "  ",
+            "text": "t\tt"
+        }
+    },
+    {
+        "line": "  +",
+        "expect": {
+            "type": "text",
+            "indent": "  ",
+            "text": "+"
+        }
+    },
+    {
+        "line": " # d",
+        "expect": {
+            "type": "head",
+            "indent": " ",
+            "text": "d"
+        }
+    },
+    {
+        "line": " #d",
+        "expect": {
+            "type": "text",
+            "indent": " ",
+            "text": "#d"
+        }
+    }
+]
