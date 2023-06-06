@@ -11,7 +11,8 @@ const editor = ace.edit('editor', {
     mode: 'ace/mode/markdown',
     theme: 'ace/theme/monokai',
     showPrintMargin: false,
-    fontSize: 16
+    fontSize: 16,
+    wrap: true
 });
 
 const contentDiv = document.querySelector('#content') as HTMLDivElement;
@@ -82,5 +83,4 @@ const doPreview = () => {
 
 editor.on('change', (e: Ace.Delta) => {
     doPreview();
-    console.log(e);
 })
