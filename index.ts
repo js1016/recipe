@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { BlobServiceClient } from '@azure/storage-blob';
 import { ContentRef, MdUtil, RefInfo } from './src/MdUtil';
-import { Section } from './src/common';
+import { Section, Content, getSectionKey } from './src/common';
 
 let ContentList: Content[] = [];
 let RecipeList: Recipe[] = [];
@@ -18,13 +18,7 @@ type RecipeConfig = {
     foot: string[];
 }
 
-type Content = {
-    name: string;
-    id: string;
-    mainMd: string | null;
-    headMd: string | null;
-    footMd: string | null;
-};
+
 
 type Recipe = {
     id: string;
@@ -95,9 +89,7 @@ const getContentById = (id: string): Content => {
     }
 }
 
-const getSectionKey = (section: Section): 'headMd' | 'mainMd' | 'footMd' => {
-    return `${section}Md` as 'headMd' | 'mainMd' | 'footMd';
-};
+
 
 const checkSteps = (steps: string[], section: Section, recipeId: string): boolean => {
     for (const step of steps) {

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+
+    #editor {
+        width: 50%;
+        height: calc(100vh);
+    }
+
+    #preview {
+        width: 50%;
+        height: calc(100vh);
+        overflow-y: auto;
+
+        #content,
+        #target {
+            margin: 15px;
+        }
+
+        #target {
+            display: flex;
+            align-items: center;
+
+            select {
+                height: 30px;
+                width: 60px;
+                text-align: center;
+                font-size: 16px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
