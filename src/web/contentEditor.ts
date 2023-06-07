@@ -1,10 +1,11 @@
 import ace, { Ace } from 'ace-builds';
 import { marked } from 'marked';
 import "./contentEditor.less";
+import "./github-md.css";
 import { ContentRef, MdUtil, RefInfo } from '../MdUtil';
 import { Content, Section, getSectionKey } from '../common';
 import ContentList from '../../ContentList.json';
-console.log(ContentList);
+
 ace.config.set('basePath', '/js/ace/');
 
 const editor = ace.edit('editor', {
