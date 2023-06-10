@@ -1,10 +1,21 @@
 import ace, { Ace } from 'ace-builds';
 import { marked } from 'marked';
 import "./contentEditor.less";
-import "./github-md.css";
+import "../../node_modules/github-markdown-css/github-markdown.css";
+import 'highlight.js/styles/github.css';
 import { ContentRef, MdUtil, RefInfo } from '../MdUtil';
 import { Content, Section, getSectionKey } from '../common';
 import ContentList from '../../ContentList.json';
+import { markedHighlight } from "marked-highlight";
+import hljs from "highlight.js";
+
+marked.use(markedHighlight({
+    langPrefix: 'hljs language-',
+    highlight(code, lang) {
+        const language = hljs.getLanguage(lang) ? lang : 'plaintext';
+        return hljs.highlight(code, { language }).value;
+    }
+}));
 
 ace.config.set('basePath', '/js/ace/');
 
