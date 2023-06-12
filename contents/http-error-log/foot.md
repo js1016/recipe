@@ -1,0 +1,1 @@
+1. The HTTP error logs are stored in the `c:\Windows\System32\LogFiles\HTTPERR` folder. You can either compress the entire directory to retrieve all the HTTP error logs, or you can select logs based on their file modification time to obtain logs from specific time periods you are interested in.
