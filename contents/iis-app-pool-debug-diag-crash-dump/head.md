@@ -37,7 +37,7 @@
 
 9. If you want the rule monitoring Application Pool crashes to take effect immediately, select **Activate the rule now** and then click **Finish**.
 
-![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-10.png)
+    ![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-10.png)
 
 10. DebugDiag might display a confirmation box regarding the Symbol search path. Click **Yes**.
 
