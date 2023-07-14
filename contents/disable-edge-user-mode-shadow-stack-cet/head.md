@@ -11,10 +11,10 @@
     ...
     ...
     User Shadow Stack:
-    UserShadowStack : OFF
-    UserShadowStackStrictMode : OFF
-    AuditUserShadowStack : NOTSET
-    Override UserShadowStack : False
+    UserShadowStack                    : OFF
+    UserShadowStackStrictMode          : OFF
+    AuditUserShadowStack               : NOTSET
+    Override UserShadowStack           : False
     PS C:\Users\user>
     ```
 
