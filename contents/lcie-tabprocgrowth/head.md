@@ -1,10 +1,5 @@
-1. Download and import the registry key file from <https://joji.blob.core.windows.net/recipe/disable-lcie.reg> or set following registry key to disable Loosely Coupled IE (LCIE) (this step requires elevated permission).
+1. Open a CMD or PowerShell window as administrator and execute following command to disable Loosely Coupled IE (LCIE).
 
     ```
-    Windows Registry Editor Version 5.00
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
-    "TabProcGrowth"=dword:00000000
+    REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer\Main" /v TabProcGrowth /t REG_DWORD /d 0 /f
     ```
-
-    ![](https://joji.blob.core.windows.net/recipe/disable-lcie-1.png)

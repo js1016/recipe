@@ -1,8 +1,4 @@
-1. To enable Loosely Coupled IE (LCIE), please delete following registry key.
-
+1. To enable Loosely Coupled IE (LCIE), please execute following command in an elevated CMD or PowerShell window.
     ```
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
-    "TabProcGrowth"=dword:00000000
+    REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer\Main" /v TabProcGrowth /f
     ```
-
-    ![](https://joji.blob.core.windows.net/recipe/disable-lcie-2.png)

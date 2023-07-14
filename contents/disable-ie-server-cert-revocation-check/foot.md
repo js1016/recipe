@@ -6,14 +6,9 @@
 
     ![](https://joji.blob.core.windows.net/recipe/disable-ie-server-cert-revocation-check-2.png)
 
-    If you disabled the IE server certificate check by importing registry keys, then please delete the following registry keys:
+    If you disabled the IE server certificate check via commands, then please execute following commands in an elevated CMD or PowerShell window.
 
     ```
-    Windows Registry Editor Version 5.00
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Download]
-    "CheckExeSignatures"="no"
-
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings]
-    "CertificateRevocation"=dword:00000000
+    REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer\Download" /v CheckExeSignatures /f
+    REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" /v CertificateRevocation /f
     ```
