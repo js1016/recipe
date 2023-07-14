@@ -4,5 +4,3 @@
     ![](https://joji.blob.core.windows.net/recipe/auth-scripts-1.png)
 
     - If it is the first time the script has been run on this device, you will be prompted to accept a EULA.
-
-    - If the command fails due to the error: `running scripts is disabled on this system`, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned` to allow script execution and try again.
