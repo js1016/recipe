@@ -1,4 +1,4 @@
-1. Download and install Debug Diagnostic Tool from <https://www.microsoft.com/en-us/download/details.aspx?id=103453>.
+1. ref:install-debug-diag
 2. Once installed, open **DebugDiag 2 Collection**, select **Crash** as the Rule Type, then click **Next**.
 
     ![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-1.png)
@@ -44,5 +44,3 @@
     ![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-11.png)
 
 11. At this point, you should see the rule you just created in the Rules list, which means the configuration is complete. Now we just wait for the application pool to crash next time. DebugDiag will automatically capture the crash dump.
-
-    ![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-12.png)

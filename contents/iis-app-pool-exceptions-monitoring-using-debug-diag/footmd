@@ -1,0 +1,5 @@
+1. After the Application Pool encounters any issue, please go to `C:\Program Files\DebugDiag\Logs` check if any exception logs being generated.
+
+2. After obtaining the exception logs, if you no longer want to use this rule, you can right-click on the rule and choose **Remove Rule** to remove it, or **Deactivate Rule** to disable it but keep the settings for future use.
+
+    ![](https://joji.blob.core.windows.net/recipe/iis-app-pool-debug-diag-crash-dump-13.png)
